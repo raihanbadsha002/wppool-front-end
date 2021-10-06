@@ -1,0 +1,66 @@
+.Services{
+    background-image: url(../images/close-bg.png);
+    background-repeat: no-repeat;
+    background-position: top left;
+    background-size: 200px;
+    .services_title{
+        p{
+            font-weight: 100;
+        }
+    }
+}
+.service_info{
+    border: 3px solid #f8f9fa;
+    padding: 3rem 4rem 5rem 4rem;
+    height: 250px;
+    cursor: pointer;
+    background: white;
+    &:hover{
+        background-color: #f8f9fa;
+    }
+    img{
+      width: 20%;
+    }
+
+}
+
+// Media Query************
+@media (max-width: 850px) { 
+    .Services{
+        background-size: 150px;
+    }
+  }
+@media (max-width: 580px) { 
+    .Services{
+        background-size: 120px;
+    }
+  }
+@media (max-width: 367px) { 
+    .services_title{
+        h3{
+            font-size: 1.3rem
+        }
+        p{
+            font-weight: 100;
+            font-size: 0.8rem;
+        }
+    }
+  }
+@media (max-width: 334px) { 
+    .services_title{
+        h3{
+            font-size: 1.2rem
+        }
+    }
+  }
+@media (max-width: 334px) { 
+    .services_title{
+        h3{
+            font-size: 1rem
+        }
+        p{
+            font-weight: 100;
+            font-size: 0.7rem;
+        }
+    }
+  }

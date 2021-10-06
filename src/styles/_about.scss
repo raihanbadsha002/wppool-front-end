@@ -1,0 +1,258 @@
+.about_section {
+  background-image: url(../images/about-bg.png) !important;
+  background-repeat: no-repeat !important;
+  background-position: 400px 220px !important;
+  background-size: 480px !important;
+  padding: 8rem 0rem 15rem 0rem;
+  z-index: 1;
+  position: relative;
+  .about_text {
+    padding: 0rem 10rem 0rem 0rem;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .about_image_sec {
+    position: relative;
+    .about_mines {
+      position: absolute;
+      top: 0;
+    }
+    .about_plus {
+      position: absolute;
+      top: 30px;
+      width: 130px;
+      left: 22%;
+      z-index: -1;
+    }
+    .about_close {
+      position: absolute;
+      top: -63px;
+      width: 120px;
+      right: 5%;
+      z-index: -1;
+    }
+    .about_eco {
+      position: absolute;
+      bottom: -45px;
+      width: 45px;
+      right: 32%;
+      z-index: -1;
+    }
+  }
+  .mission_mines {
+    left: 0;
+    z-index: -1;
+  }
+  .our_mission_text {
+    padding: 0rem 15rem;
+  }
+  .mission_value {
+    img {
+      width: 32%;
+      height: 60%;
+    }
+    h6 {
+      margin-top: 8px;
+    }
+    .mission_btn {
+      margin-top: 3rem;
+    }
+  }
+  .meet_section {
+    position: absolute;
+    bottom: -7rem;
+    left: 7rem;
+    span{
+      font-size: 1rem;
+    }
+  }
+  .meet_image {
+    img {
+      width: 80%;
+    }
+  }
+}
+
+// Media Query************
+
+@media (max-width: 1440px) {
+  .about_section .meet_section {
+    position: absolute;
+    bottom: -4rem;
+    left: 14rem;
+  }
+}
+  @media (max-width: 1366px) {
+    .about_section .meet_section {
+      left: 10rem;
+    }
+  }
+
+  @media (max-width: 1280px) {
+    .about_section .meet_section {
+      left: 8rem;
+    }
+  }
+
+@media (max-width: 1240px) {
+  .about_section .meet_section {
+    left: 6rem;
+  }
+}
+
+@media (max-width: 1190px) {
+  .about_section .meet_section {
+    left: 4rem;
+  }
+}
+@media (max-width: 1140px) {
+  .about_section {
+    background-position: 300px 180px !important;
+    background-size: 400px !important;
+  }
+}
+@media (max-width: 1024px) {
+  .about_section .meet_section {
+    left: 2rem;
+  }
+}
+@media (max-width: 992px) {
+  .meet_content{
+    span{
+      font-size: .8rem !important;
+    }
+  }
+}
+@media (max-width: 991px) {
+  .about_section .meet_section {
+    left: 8rem;
+  }
+  .about_text {
+    padding: 0rem !important;
+    
+  }
+  .about_mines {
+    top: -3rem !important;
+    img{
+      width: 50%;
+    }
+  }
+  .about_plus {
+    left: 27% !important;
+    img{
+      width: 50%;
+    }
+  }
+  .about_close {
+    top: -48px !important;
+    right: -3% !important;
+    img{
+      width: 50%;
+    }
+  }
+  .mission_mines {
+    img{
+      width: 50%;
+    }
+  }
+  .about_section .our_mission_text {
+    padding: 0rem;
+}
+}
+@media (max-width: 900px) {
+  .about_section .meet_section {
+    left: 6rem;
+  }
+}
+@media (max-width: 850px) {
+  .about_section .meet_section {
+    left: 4rem;
+  }
+  .about_section {
+    background-position: 200px 180px !important;
+    background-size: 350px !important;
+  }
+}
+@media (max-width: 800px) {
+  .about_section .meet_section {
+    left: 2.7rem;
+  }
+}
+@media (max-width: 768px) {
+  .about_section .meet_section {
+    left: 1.7rem;
+  }
+}
+@media (max-width: 767px) {
+  .about_section {
+    background-position: 200px 120px !important;
+}
+.about_mines {
+  top: 0rem !important;
+}
+.about_close {
+  top: -36px !important;
+  right: -3% !important;
+}
+.about_plus {
+  left: 30% !important;
+  top: 5rem !important;
+}
+.custom_mission_div{
+  margin: 6rem 0;
+}
+  .about_section .meet_section {
+    left: 6.8rem;
+    bottom: -18rem;
+  }
+}
+@media (max-width: 680px) {
+  .about_section .meet_section {
+    left: 4.8rem;
+  }
+}
+@media (max-width: 640px) {
+  .about_section .meet_section {
+    left: 3rem;
+  }
+}
+@media (max-width: 600px) {
+  .about_section .meet_section {
+    left: 2rem;
+  }
+}
+@media (max-width: 580px) {
+  .about_section .meet_section {
+    left: 1.2rem;
+  }
+}
+@media (max-width: 575px) {
+  .about_section .meet_section {
+    left: 1.8rem;
+    width: 90%;
+    bottom: -12rem;
+    .meet_image img {
+      width: 50%;
+  }
+}
+}
+@media (max-width: 450px) {
+  .about_section .meet_section {
+    left: 1.5rem;
+    bottom: -9rem;
+}
+.about_section .about_image_sec .about_plus {
+  top: 58px !important;
+  left: 28% !important;
+}
+}
+@media (max-width: 380px) {
+  .about_section .meet_section {
+    left: 1.1rem;
+}
+.about_section .about_image_sec .about_plus {
+  top: 40px !important;
+  left: 27% !important;
+}
+}

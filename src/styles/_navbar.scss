@@ -1,0 +1,81 @@
+.top_nav {
+  .nav_phone,
+  .nav_envelope {
+    img {
+      margin-right: 0.6rem;
+    }
+    a {
+      font-size: 1rem;
+    }
+  }
+}
+.nav_bar {
+  .navbar {
+    padding: 0 !important;
+  }
+}
+
+.nav_social {
+  img {
+    width: 50%;
+  }
+  .linkedin_icon {
+    margin-left: -1.2rem;
+  }
+}
+.nav-link {
+  font-weight: 500;
+}
+
+.custom-nav-link {
+  padding-left: 1rem !important;
+  padding-right: 1rem !important;
+  transition: 0.5s;
+  &:hover {
+    background-color: blue;
+    color: #fdfdfd !important;
+  }
+ 
+}
+
+// Media Query************
+@media (max-width: 767px) { 
+  .nav_envelope{
+    margin: 0 1rem !important;
+  }
+}
+@media (max-width: 514px) { 
+  .nav_phone,
+  .nav_envelope{
+    a {
+      font-size: 0.8rem !important;
+    }
+  }
+  .nav_social {
+    img {
+      width: 40%;
+    }
+}
+.navbar-brand{
+  img{
+    width: 70%;
+  }
+}
+.navbar-toggler{
+  font-size: 1rem !important;
+}
+}
+
+@media (max-width: 455px) { 
+  .top_nav {
+    flex-direction: column;
+    text-align: center; 
+  }
+  .nav_envelope{
+    margin: .4rem 0 !important;
+  }
+  .nav_social img {
+    width: 35%;
+    margin-bottom: .5rem;
+}
+}
